@@ -11,6 +11,49 @@ function install() {
     var appId = appName;
 
     Hisense_installApp(appId, appName, thumbnail, iconSmall, iconBig, AppUrl, storetype, installCallBack);
+
+    const current = HiUtils_createRequest('fileRead', {
+        path: 'websdk/Appinfo.json',
+        mode: 6
+    });
+
+    // Parse JSON if it exists, otherwise create an empty structure
+    const apps = current.ret ? JSON.parse(current.msg) : {
+        AppInfo: []
+    };
+
+    // Define the stremio app entry
+    const app = {
+        Id: appName,
+        AppName: appName,
+        Title: appName,
+        URL: AppUrl,
+        StartCommand: AppUrl,
+        IconURL: appIcon,
+        Icon_96: appIcon,
+        Image: appIcon,
+        Thumb: appIcon,
+        Type: "Browser",
+        InstallTime: new Date().toISOString().split('T')[0],
+        RunTimes: 0,
+        StoreType: "custom",
+        PreInstall: false
+    };
+
+    // Update existing entry or add a new one
+    const index = apps.AppInfo.findIndex(a => a.Id === stremio.Id);
+    if (index >= 0) {
+        apps.AppInfo[index] = app;
+    } else {
+        apps.AppInfo.push(app);
+    }
+
+    // Write the updated list back to the system file
+    HiUtils_createRequest('fileWrite', {
+        path: 'websdk/Appinfo.json',
+        mode: 6,
+        writedata: JSON.stringify(apps)
+    });
 }
 
 function installCallBack(res) {

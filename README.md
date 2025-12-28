@@ -15,11 +15,12 @@ I am currently focussing on those:
 
 
 ## TODO
+- [ ] Make a guide on how to make good VIDAA web apps
+- [ ] Add a custom category system
 - [ ] Add custom DNS to support modern VIDAA TVs
 - [ ] Recreate site so it looks better for an App Store
 - [ ] Make it so you install the App Store to use it.
 - [ ] Add TV remote navigation support instead of the cursor of the browser (will require the TODO above)
-- [x] Make it so I only need to add 1 line to add an app.
 
 ## Custom Repos
 You can add a github issue to add an custom repo made for the HiZ-Store. When it gets added the repo is automatically applied and is being pulled straight from the url everytime somone connects to the HiZ Store. Quality of stuff like descriptions will be need to be kept and it would be nice to update it once a while. Also, obviously no NSFW apps in the repo.
