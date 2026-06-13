@@ -33,5 +33,12 @@
     "thumb": "https://norerolls.co.uk/wp-content/uploads/2022/08/dropout-top.jpg?w=768&h=433",
     "url": "https://watch.dropout.tv/browse",
     "description": "Dropout.tv is a subscription-based streaming service focused on comedy content. It is operated by CollegeHumor and provides access to a range of original series, sketch shows, game shows, and animated content. The platform is known for hosting exclusive content from its creators and offers an ad-free viewing experience."
+  },
+  "AnimeTsu": {
+    "name": "AnimeTsu",
+    "img": "https://animetsu.bz/apple-touch-icon.png",
+    "thumb": "https://animetsu.bz/apple-touch-icon.png",
+    "url": "https://animetsu.bz/",
+    "description": "AnimeTsu is a streaming platform dedicated to anime content. It offers a wide range of anime series and movies for fans to enjoy. With a user-friendly interface and a vast library of titles, AnimeTsu provides an immersive experience for anime enthusiasts without having to pay a single penny."
   }
 }
