@@ -40,5 +40,12 @@
     "thumb": "https://animetsu.bz/apple-touch-icon.png",
     "url": "https://animetsu.bz/",
     "description": "AnimeTsu is a streaming platform dedicated to anime content. It offers a wide range of anime series and movies for fans to enjoy. With a user-friendly interface and a vast library of titles, AnimeTsu provides an immersive experience for anime enthusiasts without having to pay a single penny."
+  },
+  "BiliBili": {
+    "name": "BiliBili",
+    "img": "https://www.bilibili.com/favicon.ico",
+    "thumb": "https://nguoinoitieng.tv/images/nnt/105/0/biwr.jpg",
+    "url": "https://www.bilibili.com/",
+    "description": "BiliBili is a Chinese video sharing website that focuses on anime, manga, and gaming content. It offers a wide range of videos, including user-generated content, live streaming, and official anime releases. BiliBili has gained popularity for its interactive features, such as real-time comments and bullet chats, creating a unique viewing experience for its users."
   }
 }
