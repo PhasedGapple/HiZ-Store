@@ -1,11 +1,4 @@
 {
-  "BoredFlix": {
-    "name": "BoredFlix",
-    "img": "https://phasedgapple.github.io/HiZ-Store/img/boredflix.png",
-    "thumb": "https://phasedgapple.github.io/HiZ-Store/img/boredflix.png",
-    "url": "https://boredflix.com/",
-    "description": "Watch Movies, Series and Anime without an account and completely for free."
-  },
   "Stremio": {
     "name": "Stremio",
     "img": "img/stremio.png",
